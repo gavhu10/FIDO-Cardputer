@@ -15,8 +15,8 @@ First, clone the project.
 
 ```sh
 git clone https://github.com/gavhu10/FIDO-Cardputer
+cd FIDO-Cardputer
 git submodule update --init --recursive
-cd pico-fido
 ```
 
 Then build and flash with these commands:
