@@ -21,6 +21,9 @@ git submodule update --init --recursive
 
 Then build and flash with these commands:
 
+>[!NOTE]
+>You may have to run docker as root.
+
 ```sh
 docker run --rm -v $PWD:/project -w /project -u $UID -e HOME=/tmp espressif/idf:release-v5.5 \
   idf.py set-target esp32-s3
