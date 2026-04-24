@@ -5,6 +5,7 @@ It builds on the amazing [Pico FIDO](https://github.com/polhenarejos/pico-fido) 
 FIDO Cardputer uses the `HID` driver, which is present in all operating systems.
 It should be detected by all OS and browser applications just like normal USB FIDO keys.
 
+![Auth picture](./picture.png)
 
 # Building
 
